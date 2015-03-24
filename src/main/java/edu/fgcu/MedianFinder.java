@@ -16,7 +16,7 @@ public class MedianFinder <T extends Comparable<T>>{
 			throw new IllegalStateException(
 					"Capacity cannot be less than zero or equal to zero.");
 		}
-		this.minHeap = minHeap+10;
+		this.minHeap = minHeap;
 		this.maxHeap = maxHeap;
 	}
 
